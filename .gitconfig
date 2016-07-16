@@ -1,0 +1,45 @@
+[user]
+  name = Martin Scavnicky
+  email = martin.scavnicky@gmail.com
+[core]
+  autocrlf = input
+  editor = vim
+  excludesfile = ~/.gitignore
+[push]
+  default = simple
+[alias]
+  # Shortcuts
+  st = status
+  cl = clone
+  ci = commit
+  ca = commit -a
+  co = checkout
+  br = branch
+  cp = cherry-pick
+  re = rebase
+  df = diff
+  # Aliases
+  unstage = reset HEAD
+  amend = commit --amend
+  ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate -n 10
+  recent = for-each-ref --sort=-committerdate refs/heads/ --format='%(refname:short)' --count 10
+  # Git workflow
+  new = "!sh -c 'git co master && git pull && git co -b \"$0\"'"
+  pushb = push -u origin HEAD
+  yolo = "!sh -c 'git ca -m \"$0\" && git pushb && hub pull-request -m \"$0\"'"
+  # Conventions
+  white-check-mark = commit -a -m  ':white_check_mark:'
+  lipstick = commit -a -m ':lipstick:'
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+[color "diff"]
+  meta = white
+  frag = white
+  old = red bold
+  new = green bold
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
