@@ -1,0 +1,9 @@
+# Rails
+alias brsp="bin/rspec"
+alias brspf="bin/rspec --only-failures"
+alias brc="bin/rails console"
+alias brs="bin/rails server"
+alias brk="bin/rake"
+
+# Projects
+alias drep="cd ~/Dev/represent"
