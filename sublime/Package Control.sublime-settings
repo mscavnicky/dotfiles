@@ -1,0 +1,28 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"BeautifyRuby",
+		"Better CoffeeScript",
+		"C++ Starting Kit",
+		"DocBlockr",
+		"EditorConfig",
+		"fish-shell",
+		"GitGutter",
+		"Haml",
+		"HTML5",
+		"HTMLBeautify",
+		"jQuery",
+		"LESS",
+		"Liquid",
+		"Move By Paragraph",
+		"Package Control",
+		"RSpec",
+		"SublimeCodeIntel",
+		"Theme - Spacegray"
+	]
+}
