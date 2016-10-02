@@ -22,7 +22,6 @@ brew "gcc"
 brew "python"
 brew "python3"
 brew "perl"
-brew "ruby"
 brew "rust"
 brew "go"
 brew "node"
@@ -63,7 +62,7 @@ cask "osxfuse"
 
 # Represent
 brew "awscli"
-brew "heroku"
+brew "heroku", args: ["ignore-dependencies"]
 brew "phantomjs"
 brew "v8-315"
 cask "ngrok"
