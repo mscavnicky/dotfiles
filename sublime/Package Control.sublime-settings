@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"Babel",
 		"BeautifyRuby",
 		"Better CoffeeScript",
 		"C++ Starting Kit",
@@ -22,7 +23,6 @@
 		"Move By Paragraph",
 		"Package Control",
 		"RSpec",
-		"SublimeCodeIntel",
 		"Theme - Spacegray"
 	]
 }
