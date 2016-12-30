@@ -2,7 +2,7 @@
   name = Martin Scavnicky
   email = martin.scavnicky@gmail.com
 [core]
-  autocrlf = input
+  autocrlf = false
   editor = vim
   excludesfile = ~/.gitignore
 [push]
