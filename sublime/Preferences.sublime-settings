@@ -17,12 +17,5 @@
 	],
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"binary_file_patterns": [
-		"db/seed_data/**",
-		"log/**",
-  	"tmp/**",
-  	"public/**",
-  	"vendor/**"
-	]
+	"trim_trailing_white_space_on_save": true
 }
