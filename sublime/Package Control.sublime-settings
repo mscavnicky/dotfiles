@@ -12,18 +12,25 @@
 		"C++ Starting Kit",
 		"DocBlockr",
 		"EditorConfig",
-		"fish-shell",
+		"fish",
 		"GitGutter",
 		"Haml",
 		"HTML5",
 		"HTMLBeautify",
 		"jQuery",
+		"JSX",
 		"LESS",
 		"Liquid",
 		"Move By Paragraph",
+		"Oceanic Next Color Scheme",
 		"Package Control",
 		"RawLineEdit",
+		"React Native Autocomplete",
 		"RSpec",
-		"Theme - Spacegray"
+		"Ruby Slim",
+		"SCSS",
+		"Theme - Broceanic",
+		"Theme - Spacegray",
+		"VIM Navigation"
 	]
 }
