@@ -1,0 +1,35 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": false,
+    "window.zoomLevel": 0,
+    "editor.lineHeight": 24,
+    "editor.selectionHighlight": false,
+    "editor.tabSize": 2,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "editor.renderWhitespace": "none",
+    "workbench.startupEditor": "newUntitledFile",
+    "files.insertFinalNewline": true,
+    "editor.detectIndentation": false,
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Ocean Dark Extended",
+    "todohighlight.isEnable": true,
+    "editor.fontSize": 16,
+    "editor.rulers": [80],
+    "terminal.integrated.fontSize": 14,
+    "python.linting.lintOnSave": false,
+    "python.linting.pylintEnabled": false,
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "breadcrumbs.enabled": false,
+    "git.decorations.enabled": false,
+    "git.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "aws.samcli.location": "/usr/local/bin/sam",
+    "aws.profile": "profile:fetch",
+    "files.exclude": {
+      "**/.aws-sam": true
+    }
+  }
